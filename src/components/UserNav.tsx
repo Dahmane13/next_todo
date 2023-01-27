@@ -8,7 +8,7 @@ import Search from "../icons/Search";
 
 const UserNav: FC = () => {
   return (
-    <div className=" max-w-screen flex  items-center justify-between bg-dark-gray py-2 px-10 text-white">
+    <div className=" max-w-screen flex  items-center justify-between border-b border-black bg-dark-gray py-2 px-10 text-white">
       <div className="flex items-center gap-6">
         <Menu className="h-6 w-6" />
         <span className=" text-xl">Task</span>
